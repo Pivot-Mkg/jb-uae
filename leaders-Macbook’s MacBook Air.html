@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>For Leaders - James Douglas India</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" />
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <style>
+        .bi-lightbulb::before,
+        .bi-bullseye::before,
+        .bi-people::before {
+            padding: 10px;
+            background: #262262;
+            color: white;
+            border-radius: 50%;
+            /* width: 60px; */
+            /* height: 60px; */
+            display: inline-block;
+        }
+    </style>
+</head>
+
+<body>
+       <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top py-3" id="mainNavbar">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="assets/images/JD-logo.png" alt="James Douglas Logo" height="44" class="me-2" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link d-flex align-items-center" href="#" id="servicesDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services <i class="bi bi-chevron-down ms-1"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                            <li><a class="dropdown-item" href="services/banking-financial-services.html">Banking &
+                                    Financial Services</a></li>
+                            <li><a class="dropdown-item" href="services/family-business-private-enterprise.html">Family
+                                    Business & Private Enterprise</a></li>
+                            <li><a class="dropdown-item"
+                                    href="services/nationalization-emiratization-saudization.html">Nationalization/Emiratization/Saudization</a>
+                            </li>
+                            <li><a class="dropdown-item" href="services/technology-digital.html">Technology &
+                                    Digital</a></li>
+                            <li><a class="dropdown-item" href="services/industrial-logistics.html">Industrial
+                                    Logistics</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="company.html">For Company</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="leaders.html">For Leaders</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="insights-hub.html">Insights</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Sentinel (used to detect when the original navbar leaves the viewport) -->
+    <div id="navSentinel" aria-hidden="true"></div>
+
+    <!-- Sticky clone will be injected here by JS -->
+    <div id="stickyNavbarContainer" aria-hidden="true"></div>
+
+    <!-- Banner -->
+    <section class="banner" id="leader-banner">
+        <div class="banner-overlay">
+            <div class="banner-content">
+                <h1>
+                    <span class="hero-corner">Your Gateway to</span> <br>
+                    Future-ready Leadership
+                </h1>
+            </div>
+        </div>
+    </section>
+    <!-- Banner end -->
+
+    <!-- What Leaders Gain Section -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-heading">Your Journey. Our Commitment. </h2>
+                <div class="section-divider"></div>
+                <p>
+                    Every leader faces defining moments — a career transition, a new geography, or a step into greater responsibility. At James Douglas Middle East, we walk beside you at those moments with discretion, insight, and conviction. 
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-white">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <h2 class="section-heading">What Leaders Gain  </h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="row g-4">
+                <!-- Clarity -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container-64 mx-auto mb-4">
+                                <i class="bi bi-lightbulb text-grey fs-1"></i>
+                            </div>
+                            <h4 class="h5 mb-3">Clarity </h4>
+                            <p class="mb-0">Honest, thoughtful guidance when decisions matter most. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Alignment -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container-64 mx-auto mb-4">
+                                <i class="bi bi-bullseye text-grey fs-1"></i>
+                            </div>
+                            <h4 class="h5 mb-3">Alignment</h4>
+                            <p class="mb-0">opportunities that connect ambition with purpose. </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <!-- Enduring Partnership -->
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body text-center p-4">
+                            <div class="icon-container-64 mx-auto mb-4">
+                                <i class="bi bi-people text-grey fs-1"></i>
+                            </div>
+                            <h4 class="h5 mb-3">Partnership </h4>
+                            <p class="mb-0">A long-term relationship that grows with your career.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- What Leaders Gain   -->
+    <!-- Call to Action Section -->
+    <section class="py-5" style="background: linear-gradient(135deg, #00aeef 0%, #2b3a67 100%);" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center" data-aos="zoom-in">
+                    <h2 class="section-heading text-white">
+                        Ready to bolster your leadership team?
+                    </h2>
+                    <p class="text-white mb-4" style="font-size: 1.1rem; opacity: 0.9;">
+                        James Douglas delivers impact-driven leaders confidentially and without compromise.
+                    </p>
+                     <a href="#" class="primary-cta-btn">Contact us </a>
+                    <!-- <a href="contact-us.html" class="btn btn-primary btn-lg px-4">Connect With Us</a> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call to Action Section end -->
+
+    <!-- Footer -->
+    <footer class="pt-5 pb-4" style="background: linear-gradient(135deg, #2b3a67 0%, #23235b 100%);">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <img src="./assets/images/logo-white.png" alt="James Douglas Logo" class="mb-3"
+                        style="max-height: 40px;">
+                    <p class="text-white-50">Transforming leadership through strategic talent acquisition and executive
+                        search solutions.</p>
+                </div>
+                <div class="col-lg-2 col-md-4">
+                    <h5 class="text-white mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="index.html" class="text-white-50 text-decoration-none">Home</a></li>
+                        <li class="mb-2"><a href="company.html" class="text-white-50 text-decoration-none">For
+                                Company</a></li>
+                        <li class="mb-2"><a href="leaders.html" class="text-white-50 text-decoration-none">For
+                                Leaders</a></li>
+                        <li class="mb-2"><a href="about-us.html" class="text-white-50 text-decoration-none">About Us</a>
+                        </li>
+                        <li><a href="contact-us.html" class="text-white-50 text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="text-white mb-3">Contact Us</h5>
+                    <ul class="list-unstyled text-white-50">
+                        <li class="mb-2"><i class="bi bi-geo-alt-fill me-2"></i> 204, The Summit Business Bay, Mumbai
+                        </li>
+                        <li class="mb-2"><i class="bi bi-telephone-fill me-2"></i> +91 22 3500 8804</li>
+                        <li><i class="bi bi-envelope-fill me-2"></i> enquiry@jamesdouglas.co.in</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-4">
+                    <h5 class="text-white mb-3">Follow Us</h5>
+                    <div class="social-links">
+                        <a href="#" class="text-white me-3"><i class="bi bi-linkedin fs-5"></i></a>
+                        <a href="#" class="text-white me-3"><i class="bi bi-twitter-x fs-5"></i></a>
+                        <a href="#" class="text-white"><i class="bi bi-facebook fs-5"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.2);">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-white mb-0" style="opacity: 0.6;"> 2024 James Douglas. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-white mb-0" style="opacity: 0.6;">
+                        <a href="#" class="text-white text-decoration-none me-3">Privacy Policy</a>
+                        <a href="#" class="text-white text-decoration-none">Terms of Service</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+    </script>
+</body>
+
+</html>
